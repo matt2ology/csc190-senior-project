@@ -46,27 +46,27 @@ The development process was divided into two semesters
 CSC 191: Senior Project - Part II in Fall 2023), allowing us to manage the
 project effectively and deliver incremental value. These phases included:
 
-- CSC 190 - Requirements Analysis: conducted thorough research to understand the
+- **CSC 190 - Requirements Analysis**: conducted thorough research to understand the
 problem domain and define clear project requirements. This phase involved close
 collaboration with stakeholders to ensure alignment with their needs and
 expectations.
 
-- CSC 190 - Design and Architecture: Employing industry best practices, we
+- **CSC 190 - Design and Architecture**: Employing industry best practices, we
 crafted a robust and scalable architecture that formed the foundation of our
 solution. This phase included detailed design documents, outlining the system's
 structure and how various components interacted.
 
-- CSC 191 - Implementation: Leveraging agile development methodologies, we
+- **CSC 191 - Implementation**: Leveraging agile development methodologies, we
 transitioned from design to implementation. Regular sprints, code reviews, and
 continuous integration ensured that our codebase remained of high quality and
 aligned with project objectives.
 
-- CSC 191 - Testing and Quality Assurance: Rigorous testing was integral to our
+- **CSC 191 - Testing and Quality Assurance**: Rigorous testing was integral to our
 development process. We implemented a comprehensive testing strategy, covering
 unit tests, integration tests, and user acceptance testing to guarantee the
 reliability and performance of our solution.
 
-- CSC 191 - Deployment and Optimization: The final phase involved deploying our
+- **CSC 191 - Deployment and Optimization**: The final phase involved deploying our
 solution in a real-world environment. We closely monitored its performance,
 gathering user feedback and making iterative improvements to optimize
 functionality and user experience.
