@@ -1,0 +1,50 @@
+I'll be providing an overview of our test plan (functional and non-functional)
+
+So why test?
+
+Implementing tests reduce bugs and improve maintainability.
+
+Following the Test-Driven Development Philosophy: we write our test before
+implementing code. The mantra is "red-green-refactor" which means we write a
+failing test first (red), implement code to get it to pass (green), and then
+we go back and optimize or refactor the implemented code.
+
+
+Unit Testing: Jest
+==================
+
+At the lowest level we have Unit-testing where the goal is to validate the
+behavior of individual functions, methods, or just units of code.
+
+Integration Testing
+===================
+
+Here we implement GitHub actions as the means of our continuous integration solution.
+So what is GitHub actions? Consider a repo someone might start the repo send a pull request
+or might merge code into the main branch.
+
+These are examples of events and any event can trigger an automated workflow. A workflow can trigger
+an automated workflow. A workflow can spin up one or more containers in the cloud and we then provide a set of steps
+or instructions for the container.
+
+In our project we have GitHub actions execute our unit tests on all code to be merged.
+
+
+CYPRESS
+=======
+
+Unlike unit test that are designed to be fast and simple
+
+An End-to-end test are often long and complex and takes a while to run
+for it simulates actual user behavior in the browser
+
+This can be done with Jest with he puppeteer package, but we've decided to go with Cypress
+It's a hefty install because it download's an actual browser that will run tests in a real world environment
+
+We utilized this tool to test common user interactions like signing up for an account, logging in, forgot password, and other
+forum input data entry workflows. This is in addition to testing if all pages are accessible that is no 404 errors.
+
+Acceptance testing
+===================
+
+Test client or user's requirements (i.e. make sure the software meets assumptions and expectations)
